@@ -2,7 +2,8 @@
 
 - Added Instagram logo to footer of the web page, will redirect user to the UMD CMNS instagram page
 - Changed font to copperplate (in style.css file)
-- Changes header and footer colors to ocean green
+- Changed header and footer colors to turquoise 
 - Added personal picture for profile picture
+- Added classes to paragpah elements in index.html so that I can make the font in the container of the page larger in the style sheet
 
 
