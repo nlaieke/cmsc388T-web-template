@@ -20,5 +20,5 @@ jobs:
           script: |
             unalias rm
             rm -rf nlaieke.github.io
-            rm -r ../../pub/*
+            rm -r ../pub/*
           
