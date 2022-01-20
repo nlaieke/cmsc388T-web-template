@@ -1,0 +1,24 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Update workflow
+
+# Controls when the workflow will run
+on: 
+  push:
+    branches: [main]
+jobs:
+  job_one:
+    name: update
+    runs-on: Ubuntu-latest
+    steps:
+      - name: testing
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd nlaieke.github.io
+            git pull
+          
