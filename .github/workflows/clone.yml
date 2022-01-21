@@ -18,5 +18,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+            cd ..
+            cd pub
             git clone git@github.com:nlaieke/nlaieke.github.io.git
           
