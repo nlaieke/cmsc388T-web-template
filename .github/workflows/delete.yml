@@ -19,6 +19,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             unalias rm
+            cd ..
+            cd pub
             rm -rf nlaieke.github.io
-            rm -r ../pub/*
           
