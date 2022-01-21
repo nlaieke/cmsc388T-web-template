@@ -1,4 +1,4 @@
-# Website: https://terpconnect.umd.edu/~nlaieke/
+# Website: https://terpconnect.umd.edu/~nlaieke/nlaieke.github.io/
 ## Custom changes made to website template:
 - Added Instagram logo to footer of the web page, will redirect user to the UMD CS Instagram page
 - Changed font to copperplate (in style.css file)
